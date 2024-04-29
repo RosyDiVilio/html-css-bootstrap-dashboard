@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #212529;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+nav{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+#container_rd{
+    margin: auto;
+    font-size: 12px;
+}
+
+#first{
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    padding: 10px;
+    margin: 0 150px;
+}
+
+span{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.stato.btn-primary{
+    font-size: 11px;
+    padding: 0 5px;
+    border-bottom: 0;
+    border-radius: 6px;
+    color: white;
+}
+
+i{
+    border: 1px solid #6c757d;
+    padding: 5px;
+    border-radius: 5px;
+    color: #6c757d;
+}
