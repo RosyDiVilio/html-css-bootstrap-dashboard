@@ -12,23 +12,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="container-fluid">
-      <img src="img/duck.png" alt="logo image">
-      <nav class="nav">  
-         <a class="nav-link active text-white" aria-current="page" href="#">catalogo libri</a>
-         <a class="nav-link text-secondary" href="#">anagrafica utenti</a>
-         <a class="nav-link text-secondary" href="#">storico prestiti</a>
-         <a class="nav-link text-secondary" href="#">help</a>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+         <div class="container-fluid">
+             <img src="img/duck.png" alt="logo image">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                 <div class="navbar-nav">
+                     <a class="nav-link active text-white" aria-current="page" href="#">catalogo libri</a>
+                     <a class="nav-link text-secondary" href="#">anagrafica utenti</a>
+                     <a class="nav-link text-secondary" href="#">storico prestiti</a>
+                     <a class="nav-link text-secondary" href="#">help</a>
+                 </div>
+             </div>
+         </div>
       </nav>
     </header>
 
     <!--tabella-->
-    <div class="container-fluid">
-     <div id="first">
+    <div class="rd container-fluid">
+     <div class="rd" id="first">
          <span>catalogo libri</span>
          <button class="btn btn-primary btn-sm">Aggiungi Libro</button>
      </div>
-     <div>    
+     <div class="rd">    
          <table class="table table-striped">
              <thead>
                  <th class="col-6">Titolo</th>
