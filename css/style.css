@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    flex-shrink: "0";
 }
 
 header{
@@ -20,10 +21,10 @@ img{
 nav{
     font-size: 12px;
     text-transform: capitalize;
+    background-color: #212529;
 }
 
-#container_rd{
-    margin: auto;
+table{
     font-size: 12px;
 }
 
